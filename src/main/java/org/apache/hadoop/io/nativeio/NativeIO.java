@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package org.apache.hadoop.io.nativeio1;
+package org.apache.hadoop.io.nativeio;
 
 import com.google.common.annotations.VisibleForTesting;
 import java.io.Closeable;
@@ -27,8 +27,6 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.HardLink;
 import org.apache.hadoop.io.IOUtils;
 import org.apache.hadoop.io.SecureIOUtils.AlreadyExistsException;
-import org.apache.hadoop.io.nativeio.Errno;
-import org.apache.hadoop.io.nativeio.NativeIOException;
 import org.apache.hadoop.util.NativeCodeLoader;
 import org.apache.hadoop.util.PerformanceAdvisory;
 import org.apache.hadoop.util.Shell;
